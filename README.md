@@ -4,3 +4,5 @@
 
 Server:
 https://github.com/MarusinaAnn/websockets-ser.git
+
+https://marusinaann.github.io/websockets-page/

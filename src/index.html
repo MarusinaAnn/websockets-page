@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .subscriptions, .chat {
+      white-space: pre;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+        <h2>Введите псевдоним</h2>
+        <input type="text" class="nickname-input" placeholder="Введите псевдоним">
+        <p class="error-text"></p>
+        <button class="nickname-submit">Продолжить</button>
+    </div>
+  </div>
+
+
+  <div class="chat-widget">
+    <div class="users-widget__area">
+      <ul class="users-widget__list">
+      </ul>
+    </div>
+    <div class="chat-widget__area">
+        <div class="chat-widget__messages-container">
+            <div class="chat-widget__messages">
+            </div>
+        </div>
+        <input class="chat-widget__input" placeholder="Введите ваше сообщение">
+    </div>
+  </div>
+</body>
+
+</html>
